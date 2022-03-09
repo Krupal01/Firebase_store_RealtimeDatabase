@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.BottomSheetFragment"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:layout_behavior="com.google.android.material.bottomsheet">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/BSFHeadText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new Student :"
+        android:layout_marginHorizontal="2dp"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxStrokeWidth="1dp"
+        android:hint="@string/student_name"
+        android:layout_marginHorizontal="5dp"
+        android:textColorHint="@color/teal_200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/BSFStudentname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/teal_200"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/teal_200"
+        app:boxStrokeWidth="1dp"
+        android:hint="@string/student_phone"
+        android:layout_marginHorizontal="5dp"
+        android:textColorHint="@color/teal_200">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/BSFStudentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="phone"
+            android:textColor="@color/teal_200"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BSFAddBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_200"
+            android:textColor="@color/white"
+            app:cornerRadius="5dp"
+            android:text = "@string/add"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BSFCancleBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/cancle"
+            android:textColor="@color/teal_200"/>
+
+    </LinearLayout>
+
+</LinearLayout>

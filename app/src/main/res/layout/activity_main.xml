@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:id="@+id/LayoutMain">
+
+   <com.google.android.material.button.MaterialButton
+       style="@style/MainButton"
+       android:id="@+id/btnStudentInfo"
+       android:text="@string/go_to_student_info"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/MainButton"
+        android:id="@+id/btnAddmode"
+        android:text="@string/go_to_addmode"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/MainButton"
+        android:id="@+id/btnNotification"
+        android:text="@string/go_to_notification"/>
+
+
+
+
+</LinearLayout>

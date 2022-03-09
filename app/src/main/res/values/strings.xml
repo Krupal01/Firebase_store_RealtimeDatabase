@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="add">Add</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_to_student_info">Go to Student Info</string>
+    <string name="go_to_addmode">go to addMode</string>
+    <string name="go_to_notification">Go to Notification</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_phone">Student Phone</string>
+    <string name="cancle">cancle</string>
+
+    <string name="admod_app_id">ca-app-pub-6891861459035821~6164019297</string>
+    <string name="banner_admod_id">ca-app-pub-6891861459035821/1517680358</string>
+    <string name="interstitial_admod_id">ca-app-pub-6891861459035821/5023124176</string>
+    <string name="select_file">select file</string>
+    <string name="upload_file">Upload file</string>
+</resources>
