@@ -15,4 +15,5 @@
     <string name="interstitial_admod_id">ca-app-pub-6891861459035821/5023124176</string>
     <string name="select_file">select file</string>
     <string name="upload_file">Upload file</string>
+    <string name="are_you_want_to_get_message">Are you want to get message</string>
 </resources>

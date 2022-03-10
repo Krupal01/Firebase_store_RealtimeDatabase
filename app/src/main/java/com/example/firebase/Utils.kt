@@ -29,6 +29,7 @@ class Utils {
         val studentReference = firebaseDatabase.getReference("Students")
 
 
+
         fun fatchData(): ArrayList<HashMap<String, StudentItem>> {
             var studentList : ArrayList<HashMap<String,StudentItem>> = ArrayList()
             studentReference.addValueEventListener(object : ValueEventListener{

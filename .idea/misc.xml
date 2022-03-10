@@ -4,13 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_ad_mode.xml" value="0.1" />
+        <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_download.xml" value="0.19202898550724637" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_notification.xml" value="0.12" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_student_list2.xml" value="0.17074275362318841" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/activity_upload_file.xml" value="0.18854166666666666" />
+        <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/custom_notification_layout.xml" value="0.15625" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.2" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/fragment_student_list.xml" value="0.13" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/notification_custom_layout.xml" value="0.1" />
+        <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/row_item_image.xml" value="0.19202898550724637" />
         <entry key="..\:/Tatvasoft_Kotlin/FirebaseDatabase/app/src/main/res/layout/row_item_student_list.xml" value="0.22" />
       </map>
     </option>

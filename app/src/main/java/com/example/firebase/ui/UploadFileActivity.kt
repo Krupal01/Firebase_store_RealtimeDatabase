@@ -22,7 +22,7 @@ class UploadFileActivity : AppCompatActivity() {
 
         binding.btnSelectFile.setOnClickListener {
             val intent = Intent()
-            intent.type = "*/*"
+            intent.type = "image/*"
             intent.action = Intent.ACTION_GET_CONTENT
             startActivityForResult(
                 Intent.createChooser(

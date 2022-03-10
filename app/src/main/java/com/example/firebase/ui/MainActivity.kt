@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             changeScreen(AdModeActivity())
         }
         binding.btnNotification.setOnClickListener {
-            changeScreen(UploadFileActivity())
+            changeScreen(NotificationActivity())
         }
     }
 
