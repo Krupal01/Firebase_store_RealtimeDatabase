@@ -30,7 +30,7 @@ class Utils {
 
 
 
-        fun fatchData(): ArrayList<HashMap<String, StudentItem>> {
+        fun fetchData(): ArrayList<HashMap<String, StudentItem>> {
             var studentList : ArrayList<HashMap<String,StudentItem>> = ArrayList()
             studentReference.addValueEventListener(object : ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
@@ -39,9 +39,9 @@ class Utils {
                         var child = iterator.next()
                         var key = child.key
                         var value = child.getValue(StudentItem::class.java)
-                        var hm = HashMap<String,StudentItem>()
-                        hm.put(key!!,value!!)
-                        studentList.add(hm)
+                        var hashMap = HashMap<String,StudentItem>()
+                        hashMap.put(key!!,value!!)
+                        studentList.add(hashMap)
                     }
                 }
                 override fun onCancelled(error: DatabaseError) {

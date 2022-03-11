@@ -39,7 +39,7 @@ class UploadFileActivity : AppCompatActivity() {
                 val fileName = uri.path?.substring(uri.path!!.lastIndexOf("/")+1)
                 Utils.storageRef.child("images/"+fileName).putFile(uri)
                     .addOnSuccessListener {
-                        Toast.makeText(applicationContext,"upload sucess",Toast.LENGTH_LONG).show()
+                        Toast.makeText(applicationContext,"upload success",Toast.LENGTH_LONG).show()
                     }
                     .addOnFailureListener {
                         Toast.makeText(applicationContext,it.toString(),Toast.LENGTH_LONG).show()

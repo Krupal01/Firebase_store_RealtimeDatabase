@@ -64,8 +64,6 @@ class StudentListAdapter(private var activity: Activity) : RecyclerView.Adapter<
                 bottomSheet.show((activity as StudentListActivity2).supportFragmentManager,
                     Utils.BOTTOM_SHEET_TAG
                 )
-//                adapter.setData(Utils.fatchData())
-//                adapter.notifyDataSetChanged()
             }
             deleteBtn.setOnClickListener {
 
@@ -74,7 +72,7 @@ class StudentListAdapter(private var activity: Activity) : RecyclerView.Adapter<
                 alertDialogBuilder.setMessage("Are you sure ?")
                 alertDialogBuilder.setPositiveButton("yes"){dialog,which->
                     Utils.studentReference.child(key).removeValue()
-                    adapter.setData(Utils.fatchData())
+                    adapter.setData(Utils.fetchData())
                     adapter.notifyDataSetChanged()
                 }
                 alertDialogBuilder.setNegativeButton("cancle"){dialog,which->

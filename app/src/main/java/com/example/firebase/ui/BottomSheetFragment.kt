@@ -85,7 +85,7 @@ class BottomSheetFragment(private var adapter: StudentListAdapter) : BottomSheet
 
                     }
                 }
-                adapter.setData(Utils.fatchData())
+                adapter.setData(Utils.fetchData())
                 adapter.notifyDataSetChanged()
                 dismiss()
             }
@@ -120,16 +120,4 @@ class BottomSheetFragment(private var adapter: StudentListAdapter) : BottomSheet
 
     private fun getEditable(i: String): Editable = Editable.Factory.getInstance().newEditable(i)
 
-//
-//    companion object {
-//        @JvmStatic
-//        fun newInstance(param1: String, param2: String): BottomSheetFragment {
-//            return BottomSheetFragment().apply {
-//                arguments = Bundle().apply {
-//                    putString(ARG_PARAM1, param1)
-//                    putString(ARG_PARAM2, param2)
-//                }
-//            }
-//        }
-//    }
 }
